@@ -1,2 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="net.gridtech.android.core"/>
+          package="net.gridtech.android.core">
+    <application>
+        <service
+                android:name=".CoreService"
+                android:enabled="true"
+                android:exported="false">
+        </service>
+    </application>
+</manifest>
